@@ -1,35 +1,499 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>iazzai - your interview helper</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/logo/thumbnail.png"
+    />
+    <!-- Place favicon.ico in the root directory -->
 
-        <title>Coming Soon</title>
+    <!-- ======== CSS here ======== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/652c27436fcfe87d54ba0197/1hcq7io8e';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-    <body>
-        <div class="container">    
-            <img class="background-gif" src="video3.gif" alt="Background GIF">
-            <div class="overlay">
-                <img src="1000px.png" style="
-                    filter: invert(1);
-                    width: 50%;
-                    min-width: 200px;
-                    padding-left: 4%;
-                ">
-                <div class="sm" style="
-                    margin-top: 50px;
-                ">
-                    <a href="https://linkedin.com/company/iazzai"><i class="fab fa-linkedin"></i></a>
-                </div>
+    <!-- ======== preloader start ======== -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- preloader end -->
 
-    </body>
+    <!-- ======== header start ======== -->
+    <header class="header">
+      <div class="navbar-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/img/logo/250px.png" alt="Logo" class="invert" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="page-scroll active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#features">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#waiting">Waiting List</a>
+                    </li>
+                    <!--<li class="nav-item">
+                      <a href="javascript:void(0)">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="javascript:void(0)">Clients</a>
+                    </li>-->
+                  </ul>
+                </div>
+                <!-- navbar collapse -->
+              </nav>
+              <!-- navbar -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- navbar area -->
+    </header>
+    <!-- ======== header end ======== -->
+
+    <!-- ======== hero-section start ======== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="wow fadeInUp" data-wow-delay=".4s">
+                Hiring process, made easy
+              </h1>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                Interviews are the most important step and we are here to help you get the best out of it!
+                
+              </p>
+              <a
+                href="#waiting"
+                class="main-btn border-btn btn-hover wow fadeInUp"
+                data-wow-delay=".6s"
+                >Join Waiting List</a
+              >
+              <a href="#features" class="scroll-bottom">
+                <i style="color:black;" class="lni lni-arrow-down"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
+              <img src="assets/img/hero/phone.png" class="phone"  />
+            
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== hero-section end ======== -->
+
+    <!-- ======== feature-section start ======== -->
+    <section id="features" class="feature-section pt-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="section-title text-center mb-60">
+            <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+              The hiring process
+            </h2>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-10">
+            <div class="single-feature">
+              <div class="icon">
+                <i class="lni lni-mic"></i>
+              </div>
+              <div class="content">
+                <h3>Record</h3>
+                <p>
+                  Interviews with candidates are recorded. Get recommendations for questions during the interview. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-10">
+            <div class="single-feature">
+              <div class="icon">
+                <i class="lni lni-magnifier"></i>
+              </div>
+              <div class="content">
+                <h3>Analysis</h3>
+                <p>
+                  All candidate interviews are analyzed. AI generated reports highlight the compatibility in short summaries with individual scoring.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-10">
+            <div class="single-feature">
+              <div class="icon">
+                <i class="lni lni-star"></i>
+              </div>
+              <div class="content">
+                <h3>Choose the best candidate</h3>
+                <p>
+                  Candidates are continiously measured against eachother based on all the interview reports, so you can confidently select the best candidate for the job.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== feature-section end ======== -->
+
+    <!-- ======== about-section start ======== -->
+    <section id="about" class="about-section pt-150">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6">
+            <div class="about-img">
+            
+             
+              <img
+                src="assets/img/about/left-dots.svg"
+                alt=""
+                class="shape shape-2"
+              />
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="about-content">
+              <div class="section-title mb-30">
+                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                  Perfect Solution for your interviews
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  Imagine finishing up an interview with a candidate for a job, and receiving a full report of the interview, with highlight of what was good and what went wrong, how compatible the candidate is for the job both in terms of personality as well as competence for the position. This is what we provide with our simple click & play app. Interviews are recorded, anlyzed, candidates are recommended and the interview erased, in an unbiased, privacy ensured workflow to ensure the integrity of each candidate is protected.
+                </p>
+              </div>
+              <!-- <a
+                href="javascript:void(0)"
+                class="main-btn btn-hover border-btn wow fadeInUp"
+                data-wow-delay=".6s"
+                >Discover More</a>-->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== about-section end ======== -->
+
+    <!-- ======== about2-section start ======== -->
+    <section id="about" class="about-section pt-150">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6">
+            <div class="about-content">
+              <div class="section-title mb-30">
+                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                  Easy to Use, Scientifically verified
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  Humans are prone to bias, so are AI models, that is why we have developed a method of analyzing interviews that is scientifically unbiased to ensure recommendations and scoring of candidates are unbiased and trust worthy. The systems allows you to conduct the interview in any language and with the ease of a button, you too can have reports with summaries for each candidate sent straight to your email.
+                </p>
+              </div>
+              <ul>
+                <li>Unbiased Reports</li>
+                <li>Click and Play</li>
+                <li>Any Language</li>
+              </ul>
+              <!--<a
+                href="javascript:void(0)"
+                class="main-btn btn-hover border-btn wow fadeInUp"
+                data-wow-delay=".6s"
+                >Learn More</a>-->
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 order-first order-lg-last">
+            <div class="about-img-2">
+              
+            
+              <img
+                src="assets/img/about/right-dots.svg"
+                alt=""
+                class="shape shape-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== about2-section end ======== -->
+
+    <!-- ======== feature-section start ======== 
+    <section id="why" class="feature-extended-section pt-100">
+      <div class="feature-extended-wrapper">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
+              <div class="section-title text-center mb-60">
+                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                  Why Choose IAZZAI
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  Whether you're an up-and-coming startup or an old veteran, we take care of the boring stuff, so you can focus on your true passion.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-sthethoscope"></i>
+                </div>
+                <div class="content">
+                  <h3>Advice</h3>
+                  <p>
+                    Our company provides expert advice to guide you in making informed decisions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-certificate"></i>
+                </div>
+                <div class="content">
+                  <h3>Annual Financial Statements</h3>
+                  <p>
+                    We specialize in preparing and analyzing annual accounts to assess your company's financial health.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-investment"></i>
+                </div>
+                <div class="content">
+                  <h3>Tax Planning</h3>
+                  <p>
+                    We offer comprehensive tax planning services to optimize your financial situation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-briefcase"></i>
+                </div>
+                <div class="content">
+                  <h3>Accounting</h3>
+                  <p>
+                    Our accounting services ensure accurate record-keeping and financial reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-notepad"></i>
+                </div>
+                <div class="content">
+                  <h3>Bookkeeping</h3>
+                  <p>
+                    Let us handle your bookkeeping needs, keeping your financial records organized and up to date.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-pencil-alt"></i>
+                </div>
+                <div class="content">
+                  <h3>Invoicing</h3>
+                  <p>
+                    Simplify your invoicing process with our efficient and user-friendly solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!-- ======== feature-section end ======== -->
+
+    <!-- ======== subscribe-section start ======== -->
+    <section id="waiting" class="subscribe-section pt-120">
+      <div class="container">
+        <div class="subscribe-wrapper img-bg">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-7">
+              <div class="section-title mb-15">
+                <h2 class="text-white mb-25">Join our waiting list!</h2>
+                <p class="text-white pr-5">
+                  We'll contact you when IAZZAI is available for the public, be the first to try it out.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-5">
+              <div id="getWaitlistContainer" data-waitlist_id="11321" data-widget_type="WIDGET_2"></div>
+                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== subscribe-section end ======== -->
+
+    <!-- ======== footer start ======== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="widget-wrapper">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <div class="logo mb-30">
+                  <a href="index.html">
+                    <img width="200px" src="assets/img/logo/250px.png" alt="" class="invert" />
+                  </a>
+                </div>
+                <p class="desc mb-30 text-white">
+                  Automating the interview process for hiring candidates.
+                </p>
+                <ul class="socials">
+                  <!--<li>
+                    <a href="jvascript:void(0)">
+                      <i class="lni lni-facebook-filled"></i>
+                    </a>
+                  </li>-->
+                  <li>
+                    <a href="https://twitter.com/iazzai_com">
+                      <i class="lni lni-twitter-filled"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/iazzai_com">
+                      <i class="lni lni-instagram-filled"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com/company/iazzai">
+                      <i class="lni lni-linkedin-original"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!--<div class="col-xl-2 col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h3>About Us</h3>
+                <ul class="links">
+                  <li><a href="javascript:void(0)">Home</a></li>
+                  <li><a href="javascript:void(0)">Feature</a></li>
+                  <li><a href="javascript:void(0)">About</a></li>
+                  <li><a href="javascript:void(0)">Testimonials</a></li>
+                </ul>
+              </div>
+            </div>-->
+
+            <!--<div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h3>Services</h3>
+                <ul class="links">
+                  <li><a href="javascript:void(0)">How it works</a></li>
+                  <li><a href="javascript:void(0)">Privacy policy</a></li>
+                  <li><a href="javascript:void(0)">Terms of service</a></li>
+                  <li><a href="javascript:void(0)">Refund policy</a></li>
+                </ul>
+              </div>
+            </div>-->
+
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ======== footer end ======== -->
+
+
+    <!-- ======== JS here ======== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
